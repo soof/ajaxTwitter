@@ -1,0 +1,29 @@
+/* reset */
+html, body, div, ul, li, p, h1, h2, h3, form {margin: 0; padding:0 ; font-family: "helvetica neue", arial, san-serif;}
+fieldset, button {border: none;}
+html, body {height: 100%;}
+
+/* global */
+.clearfix:after {content: " "; display:block; height: 0px; clear:both; }
+.clearfix {zoom:1 ;}
+
+
+input {width: 200px; height: 30px; font-size: 18px; width: 200px; padding: 0 10px; border: 1px solid white; border-radius: 12px;}
+input:focus {border: 1px solid yellow; }
+
+label {font-size: 24px; font-weight: 100; color: white; }
+
+/* specific */
+#wrapper {background: url(../images/bg.jpg) no-repeat; width: 1000px; height: 750px; margin: 40px auto;}
+h1 {font-size: 60px; text-align: center; color: white; margin: 40px 0; font-weight: 100; padding-top: 40px;}
+form {width: 250px; margin: 150px 0 0; float: left;}
+form div {margin: 0 0 30px 40px;}
+form div label {display:block; float: left;}
+form div input {display:block; clear:left; float: left;}
+form button {background: url(../images/button.png) no-repeat; width: 186px; height: 186px; margin: 0 50px; font-size: 46px; color:#dadada; cursor: pointer; }
+form button:hover {color: white;}
+
+.panel {position: relative; float: left; margin: 0 0 0 80px; border: 15px solid #eaeaea; background-color: #dadada;}
+.panel h2 {font-size: 12px; color:white; line-height: 1.2; font-weight: 200; background: #ea7128; padding:4px 0 0 8px; }
+.panel h3 {font-size: 22px; color: white; line-height: 1.2; font-weight: 100;background: #b45318; padding-left: 8px;}
+#panel_2 {margin-left: 50px;}
