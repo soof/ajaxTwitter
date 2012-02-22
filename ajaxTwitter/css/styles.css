@@ -20,6 +20,7 @@ form {width: 250px; margin: 150px 0 0; float: left;}
 form div {margin: 0 0 30px 40px;}
 form div label {display:block; float: left;}
 form div input {display:block; clear:left; float: left;}
+form div input:focus {outline:none;}
 form button {background: url(../images/button.png) no-repeat; width: 186px; height: 186px; margin: 0 50px; font-size: 46px; color:#dadada; cursor: pointer; }
 form button:hover {color: white;}
 
