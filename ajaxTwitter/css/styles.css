@@ -8,8 +8,8 @@ html, body {height: 100%;}
 .clearfix {zoom:1 ;}
 
 
-input {width: 200px; height: 30px; font-size: 18px; width: 200px; padding: 0 10px; border: 1px solid white; border-radius: 12px;}
-input:focus {border: 1px solid yellow; }
+input {width: 200px; height: 30px; font-size: 18px; padding: 0 10px; border: 1px solid white; border-radius: 12px;}
+input:focus {border: 1px solid #999; box-shadow: inset 0 0 10px #49bac1;}
 
 label {font-size: 24px; font-weight: 100; color: white; }
 
@@ -19,7 +19,7 @@ h1 {font-size: 60px; text-align: center; color: white; margin: 40px 0; font-weig
 form {width: 250px; margin: 150px 0 0; float: left;}
 form div {margin: 0 0 30px 40px;}
 form div label {display:block; float: left;}
-form div input {display:block; clear:left; float: left;}
+form div input {display:block; clear:left; float: left; font-family:inherit; font-weight: 200;}
 form div input:focus {outline:none;}
 form button {background: url(../images/button.png) no-repeat; width: 186px; height: 186px; margin: 0 50px; font-size: 46px; color:#dadada; cursor: pointer; }
 form button:hover {color: white;}
